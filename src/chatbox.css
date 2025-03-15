@@ -1,0 +1,152 @@
+/* 設定基本的頁面背景和字型 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.designer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* 控制面板樣式 */
+.control-panel {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 設定輸入框和按鈕樣式 */
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="color"],
+input[type="range"],
+select {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border 0.3s ease;
+}
+
+input[type="color"]:hover,
+input[type="range"]:hover,
+select:hover {
+    border: 1px solid #999;
+}
+
+button.export-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.export-btn:hover {
+    background-color: #45a049;
+}
+
+/* 預覽區域 */
+.preview-area {
+    width: 50%;
+}
+
+.chatbox {
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.designer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+.control-panel {
+    width: 300px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.preview-area {
+    padding: 50px;
+    width: 50%;
+}
+
+.chatbox {
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
